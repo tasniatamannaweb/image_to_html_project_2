@@ -109,18 +109,16 @@ header{
   margin: 40px 0 0 0;
 }
 
-.b_content p{
+.b_content p {
   font-size: 18px;
   font-weight: 400;
   color: #444;;
   margin-top: 50px;
   margin-bottom: 1px;
   word-spacing: 1px;
-}
-
-.b_content1 p{
-  margin-top: 0;
-  margin-bottom: 20px;
+  padding-right: 22%;
+  padding-left: 22%;
+  line-height: 30px;
 }
 
 .b_img{
@@ -170,6 +168,8 @@ header{
   margin: 0;
   word-spacing: 1px;
   line-height: 25px;
+  padding-left: 60%;
+  text-align: right;
 }
 
 .s_right{
@@ -184,11 +184,7 @@ header{
   font-weight: 700;
   color: #2E7D32;
   margin: 0 auto;
-}
-
-.s_right h1 span{
-  display: block;
-  line-height: 1.1;
+  padding-right: 20%;
 }
 
 /*success end*/
@@ -214,6 +210,11 @@ overflow: hidden;
  margin-right: 2%;
  margin-top: 0px;
  margin-bottom: 50px;
+}
+
+.f_single p{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .f_single:last-child{
